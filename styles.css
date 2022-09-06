@@ -11,3 +11,8 @@ body {
     font-weight: 600;
     font-style: italic;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
