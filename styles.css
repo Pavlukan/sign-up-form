@@ -1,7 +1,10 @@
 body {
+    height: 100vh;
+    
+    margin: 0;
+    
     background-color: #FBFAF5;
 
-    margin: 0;
 
     font-family: "Kanit", sans-serif;
 }
@@ -15,4 +18,9 @@ body {
 ul {
     list-style: none;
     padding: 0;
+}
+
+img {
+    height: 100vh;
+    width: 40vw;
 }
