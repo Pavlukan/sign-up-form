@@ -7,7 +7,10 @@ body {
     font-family: "Kanit", sans-serif;
 
     display: flex;
+}
 
+main {
+    padding: 125px 50px;
 }
 
 .quote, .author {
