@@ -11,46 +11,50 @@
     <title>Sign-up form</title>
 </head>
 <body>
-
-    <div class="quote">If debugging is the process of removing software bugs, 
-        then programming must be the process of putting them in.</div>
-    <p class="author">- Edsger W. Dijkstra</p>
-
-    <!-- I didn't include the action and method attributes in the form element 
-        because I'm not working with the backend yet. -->
-
-    <form>
-        <ul>
-            <li>
-                <label for="fname">First name</label>
-                <input type="text" id="fname" name="fname" required>
-            </li>
-            <li>
-                <label for="lname">Last name</label>
-                <input type="text" id="lname" name="lname">
-            </li>
-            <li>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </li>
-            <li>
-                <label for="phone-num">Phone number</label>
-                <input type="tel" id="phone-num" name="phone-num">
-            </li>
-            <li>
-                <label for="pwd">Password</label>
-                <input type="password" id="pwd" name="pwd" required>
-            </li>
-            <li>
-                <!-- there's no need to store the value of confirm password, -->
-                <!-- so omitted the name attribute -->
-                <label for="confirm-pwd">Confirm password</label>
-                <input type="password" id="confirm-pwd" required>
-            </li>
-        </ul>
-
-        <button>Create account</button>
-    </form>
-    <p>Already have an account? <a href="#">Log in</a></p>
+    <div class="image-holder">
+        
+    </div>
+    <main>
+        <div class="quote">If debugging is the process of removing software bugs, 
+            then programming must be the process of putting them in.</div>
+        <p class="author">- Edsger W. Dijkstra</p>
+    
+        <!-- I didn't include the action and method attributes in the form element 
+            because I'm not working with the backend yet. -->
+    
+        <form>
+            <ul>
+                <li>
+                    <label for="fname">First name</label>
+                    <input type="text" id="fname" name="fname" required>
+                </li>
+                <li>
+                    <label for="lname">Last name</label>
+                    <input type="text" id="lname" name="lname">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </li>
+                <li>
+                    <label for="phone-num">Phone number</label>
+                    <input type="tel" id="phone-num" name="phone-num">
+                </li>
+                <li>
+                    <label for="pwd">Password</label>
+                    <input type="password" id="pwd" name="pwd" required>
+                </li>
+                <li>
+                    <!-- there's no need to store the value of confirm password, -->
+                    <!-- so omitted the name attribute -->
+                    <label for="confirm-pwd">Confirm password</label>
+                    <input type="password" id="confirm-pwd" required>
+                </li>
+            </ul>
+    
+            <button>Create account</button>
+        </form>
+        <p>Already have an account? <a href="#">Log in</a></p>
+    </main>
 </body>
 </html>
