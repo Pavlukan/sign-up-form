@@ -1,7 +1,13 @@
 body {
     background-color: #FBFAF5;
-    
+
     margin: 0;
 
     font-family: "Kanit", sans-serif;
+}
+
+.quote, .author {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
 }
