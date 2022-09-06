@@ -1,12 +1,13 @@
 body {
     height: 100vh;
-    
     margin: 0;
     
     background-color: #FBFAF5;
 
-
     font-family: "Kanit", sans-serif;
+
+    display: flex;
+
 }
 
 .quote, .author {
