@@ -37,7 +37,11 @@ li {
     align-items: flex-start;
 }
 
-
+.fullname, .personal-data, .passwords {
+    display: flex;
+    gap: 250px;
+    margin-top: 18px;
+}
 
 
 label {
