@@ -94,8 +94,6 @@ button {
 }
 
 button:hover {
-    cursor: pointer;
-    
     background-color: #4b5e3a
 }
 
