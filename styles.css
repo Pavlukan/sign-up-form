@@ -70,8 +70,33 @@ input:hover {
 }
 
 input:focus {
-    border: 1px solid #46a7ce;
-    box-shadow: 0px 0px 8px skyblue;
-
     outline: none;
+    
+    border: 1px solid #46a7ce;
+    
+    box-shadow: 0px 0px 8px skyblue;
 }
+
+button {
+    cursor: pointer;
+    
+    font-family: "Kanit", sans-serif;
+    font-size: 1.15rem;
+
+    padding: 10px 50px;
+    margin-top: 40px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #596D48;
+    color: #FBFAF5;
+}
+
+button:hover {
+    cursor: pointer;
+    
+    background-color: #4b5e3a
+}
+
+
