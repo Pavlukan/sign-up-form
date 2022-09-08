@@ -21,6 +21,18 @@ main {
     background-color:#4B5E3A;
 }
 
+.image-holder p {
+    color: #FBFAF5;
+}
+
+.image-holder a {
+    color: #FBFAF5;
+}
+
+.image-holder a:hover {
+    color: #9e9e9e;
+}
+
 .quote, .author {
     font-size: 2rem;
     font-weight: 600;
@@ -100,13 +112,13 @@ button:hover {
     background-color: #4B5E3A;
 }
 
-a {
+main a {
     text-decoration: none;
 
     color: #596D48;
 }
 
-a:hover {
+main a:hover {
     color: #4B5E3A;
 }
 
