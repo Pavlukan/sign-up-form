@@ -43,7 +43,10 @@ main {
 
     margin: 0 3px;
 
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: 'FyodorBoldCondensedOblique', sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .image-holder p {
