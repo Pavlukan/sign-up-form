@@ -26,6 +26,26 @@ main {
     background-color:#4B5E3A;
 }
 
+.image-holder div {
+    width: inherit;
+    
+    background-color: #000000a8;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-holder div p {
+    color: #FBFAF5;
+
+    display: inline-block;
+
+    margin: 0 3px;
+
+    font-size: 3rem;
+}
+
 .image-holder p {
     color: #FBFAF5;
 }
