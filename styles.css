@@ -100,10 +100,10 @@ label {
 input {
     appearance: none;
     
-    height: 20px;
+    height: 18px;
     width: 250px;
 
-    padding: 4px;
+    padding: 6px;
 
     font-size: 1.15rem;
     font-family: "Kanit", sans-serif;
