@@ -28,6 +28,10 @@ main {
 
 .image-holder div {
     width: inherit;
+
+    font-family: 'FyodorBoldCondensedOblique', sans-serif;
+    font-weight: bold;
+    font-style: italic;
     
     background-color: #000000a8;
     
@@ -43,7 +47,7 @@ main {
 
     margin: 0 3px;
 
-    font-size: 4rem;
+    font-size: 6rem;
     font-family: 'FyodorBoldCondensedOblique', sans-serif;
     font-weight: bold;
     font-style: italic;
